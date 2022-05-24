@@ -15,7 +15,7 @@ public class GeneralTest {
 
     @BeforeMethod(alwaysRun = true)
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "resource/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://demo.opencart.com/");
         driver.manage().window().maximize();
