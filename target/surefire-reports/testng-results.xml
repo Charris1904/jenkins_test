@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GeneralTest" duration-ms="11187" started-at="2022-05-24T09:42:54 CST" finished-at="2022-05-24T09:43:05 CST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="11187" started-at="2022-05-24T09:42:54 CST" finished-at="2022-05-24T09:43:05 CST">
+      <class name="GeneralTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:GeneralTest@59ec2012]" name="setUp" is-config="true" duration-ms="5357" started-at="2022-05-24T09:42:54 CST" finished-at="2022-05-24T09:42:59 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testProductCurrency()[pri:0, instance:GeneralTest@59ec2012]" name="testProductCurrency" duration-ms="5004" started-at="2022-05-24T09:42:59 CST" finished-at="2022-05-24T09:43:04 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductCurrency -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GeneralTest@59ec2012]" name="tearDown" is-config="true" duration-ms="773" started-at="2022-05-24T09:43:04 CST" finished-at="2022-05-24T09:43:05 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GeneralTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- GeneralTest -->
+</testng-results>
